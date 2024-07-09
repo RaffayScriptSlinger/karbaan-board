@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karbaan-Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div id="signUp-page">
+            
+                <h1 id="sign-up-heading">Sign-Up</h1>
+                <input type="text" id="userName" placeholder="Enter Your Name" class="s-inputs">
+                <input type="email" name="s-email" id="s-email" class="s-inputs" placeholder="Enter Youur email"  required>
+                <input type="text" name="s-password" id="s-password" class="s-inputs" placeholder="Create password">
+                <input type="text" name="s-password" id="s-c-password" class="s-inputs" placeholder="Conform Password">
+                <button class="s-btns" onclick="signUp()">Sign-Up</button>
+                <p class="p">already have a Account <a href="login.html">Login Here</a></p>
+                <p>or</p>
+                <button class="s-btns" onclick="facebooklogin()">Login With Facebook</button>
+                <button class="s-btns" onclick="goglelogin()">Login With Google</button>
+        </div>
+    </div>
+
+
+
+    <!-- Body section Ended -->
+    <script src="app.js"></script>
+</body>
+
+</html>

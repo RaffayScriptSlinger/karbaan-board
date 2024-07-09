@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karbaan Board</title>
+    <link rel="stylesheet" href="karban.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="parentDiv">
+            <div class="containers dropzone" id="todo">
+                <h3>To Do</h3>
+                <input type="text" id="todoInput" placeholder="Add a task">
+                <button onclick="addTask('todoInput', 'todoList')">Add Task</button>
+                <ul id="todoList"></ul>
+            </div>
+            <div class="containers dropzone" id="inProgress">
+                <h3>In Progress</h3>
+                <input type="text" id="inProgressInput" placeholder="Add a task">
+                <button onclick="addTask('inProgressInput', 'inProgressList')">Add Task</button>
+                <ul id="inProgressList"></ul>
+            </div>
+            <div class="containers dropzone" id="done">
+                <h3>Done</h3>
+                <input type="text" id="doneInput" placeholder="Add a task">
+                <button onclick="addTask('doneInput', 'doneList')">Add Task</button>
+                <ul id="doneList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="karbaan.js"></script>
+</body>
+</html>

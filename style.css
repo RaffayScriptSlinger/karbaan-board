@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/gradient-connection-background_52683-118592.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#signUp-page {
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 12px 12px 12px white;
+   
+}
+
+#sign-up-heading {
+    margin-bottom: 20px; 
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+}
+
+.input-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-inputs {
+    height: 22px;
+    width: 80%; 
+    margin: 10px 0; 
+}
+
+.s-btns{
+    width: 80%;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size:medium;
+}
+
+
+/* Sign Up page css */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#Login {
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 12px 12px 12px white;
+}
+#login-heading{
+    color: white;
+}
+
+
+
+
+
+.input-wrapper {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.l-inputs {
+    height: 22px;
+    width: 80%; 
+    margin: 10px 0; 
+}
+.p{
+    color: white;
+}
+.p > a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+
+.l-btns{
+    width: 80%;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
